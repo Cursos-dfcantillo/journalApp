@@ -7,8 +7,8 @@ import { FormEvent, useMemo } from "react";
 import { startGoogleSignIn, startLoginWithEmailPassword } from "../../store/auth";
 
 const initialFormState ={
-  email: "nando@google.com",
-    password: "123456"
+  email: "",
+    password: ""
 }
 
 export const LoginPage = () => {
